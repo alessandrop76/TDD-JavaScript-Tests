@@ -1,0 +1,20 @@
+{
+  "name": "digitaltest",
+  "version": "1.0.0",
+  "description": "\"testes TDD com javascript\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "../index.js",
+    "test": "mocha tests/findCrushListTest.js"
+  },
+  "author": "alessandrop76",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "cypress": "^4.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
